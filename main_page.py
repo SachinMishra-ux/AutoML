@@ -1,16 +1,16 @@
 import streamlit as st
 
 def main_page():
-    st.markdown("# Main page 🎈")
+    st.markdown("# Welcome to AutoML world!! 🎈")
     st.sidebar.markdown("# Main page 🎈")
 
 def classification():
-    st.markdown("# Classification ❄️")
-    st.sidebar.markdown("# Classification is defined as the process of recognition, understanding, and grouping of objects and ideas into preset categories a.k.a “sub-populations. ❄️")
+    st.markdown("# Classification is defined as the process of recognition, understanding, and grouping of objects and ideas into preset categories a.k.a “sub-populations. ❄️")
+    st.sidebar.markdown("# Classification ❄️")
 
 def regression():
-    st.markdown("# Regression 🎉")
-    st.sidebar.markdown("Regression is a statistical method used in finance, investing, and other disciplines that attempts to determine the strength and character of the relationship between one dependent variable (usually denoted by Y) and a series of other variables (known as independent variables) 🎉")
+    st.markdown("# Regression is a statistical method used in finance, investing, and other disciplines that attempts to determine the strength and character of the relationship between one dependent variable (usually denoted by Y) and a series of other variables (known as independent variables)  🎉")
+    st.sidebar.markdown("Regression 🎉 ")
 
 page_names_to_funcs = {
     "Main Page": main_page,
